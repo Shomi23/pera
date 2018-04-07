@@ -5,7 +5,7 @@
       <v-flex xs12 md6 v-for="pic in pics" :key="pic.id" @click="moveTop">
         <router-link :to="'/album/'+ pic.id">
           <div>
-            <img :src="getPic(pic.thumbnail)" slot="image">
+            <img :src="getPic(pic.thumbnailQ)">
             <h4>{{title}}</h4>
           </div>
         </router-link>

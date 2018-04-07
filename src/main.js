@@ -5,9 +5,9 @@ import 'vuetify/dist/vuetify.css'
 import VueRouter from 'vue-router'
 import Routes from './router/index'
 import {store} from './store'
+import VueProgressiveImage from 'vue-progressive-image'
 
-
-
+Vue.use(VueProgressiveImage)
 Vue.use(Vuetify)
 Vue.use(VueRouter)
 

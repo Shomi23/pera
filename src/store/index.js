@@ -7,306 +7,373 @@ export const store = new Vuex.Store({
   state: {
     albums: [{
         slike: [{
-            name: 'Nights/01.jpg',
+            picQuality: 'Nights/01.jpg',
+            picLowQuality: 'Nights/01.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Nights/02vert.jpg',
+            picQuality: 'Nights/02.jpg',
+            picLowQuality: 'Nights/02.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Nights/03vert.jpg',
+            picQuality: 'Nights/03.jpg',
+            picLowQuality: 'Nights/03.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Nights/04vert.jpg',
+            picQuality: 'Nights/04.jpg',
+            picLowQuality: 'Nights/04.webp',
             vert: false,
             size: 'lg12'
           }
         ],
-        thumbnail: 'Nights/Thumb.jpg',
+        thumbnailQ: 'Nights/Thumb.jpg',
+        thumbnailLowQ: 'Nights/Thumb.webp',
         text: 'Pic Title',
         id: 'Nights',
       },
       {
         slike: [{
-            name: 'Niksi/01.jpg',
+            picQuality: 'Niksi/01.jpg',
+            picLowQuality: 'Niksi/01.webp',
           },
           {
-            name: 'Niksi/02.jpg',
+            picQuality: 'Niksi/02.jpg',
+            picLowQuality: 'Niksi/02.webp',
           },
           {
-            name: 'Niksi/03.jpg',
+            picQuality: 'Niksi/03.jpg',
+            picLowQuality: 'Niksi/03.webp',
           },
           {
-            name: 'Niksi/04.jpg',
+            picQuality: 'Niksi/04.jpg',
+            picLowQuality: 'Niksi/04.webp',
           },
           {
-            name: 'Niksi/05.jpg',
+            picQuality: 'Niksi/05.jpg',
+            picLowQuality: 'Niksi/05.webp',
           },
           {
-            name: 'Niksi/06.jpg',
+            picQuality: 'Niksi/06.jpg',
+            picLowQuality: 'Niksi/06.webp',
           },
           {
-            name: 'Niksi/07.jpg',
+            picQuality: 'Niksi/07.jpg',
+            picLowQuality: 'Niksi/07.webp',
           },
           {
-            name: 'Niksi/08.jpg',
+            picQuality: 'Niksi/08.jpg',
+            picLowQuality: 'Niksi/08.webp',
           },
           {
-            name: 'Niksi/09.jpg',
+            picQuality: 'Niksi/09.jpg',
+            picLowQuality: 'Niksi/09.webp',
           },
           {
-            name: 'Niksi/10.jpg',
+            picQuality: 'Niksi/10.jpg',
+            picLowQuality: 'Niksi/10.webp',
           },
           {
-            name: 'Niksi/11.jpg',
+            picQuality: 'Niksi/11.jpg',
+            picLowQuality: 'Niksi/11.webp',
           },
           {
-            name: 'Niksi/12.jpg',
+            picQuality: 'Niksi/12.jpg',
+            picLowQuality: 'Niksi/12.webp',
           },
           {
-            name: 'Niksi/13.jpg',
+            picQuality: 'Niksi/13.jpg',
+            picLowQuality: 'Niksi/13.webp',
           },
           {
-            name: 'Niksi/14.jpg',
+            picQuality: 'Niksi/14.jpg',
+            picLowQuality: 'Niksi/14.webp',
           },
           {
-            name: 'Niksi/15.jpg',
+            picQuality: 'Niksi/15.jpg',
+            picLowQuality: 'Niksi/15.webp',
           },
           {
-            name: 'Niksi/16.jpg',
+            picQuality: 'Niksi/16.jpg',
+            picLowQuality: 'Niksi/16.webp',
           }
         ],
-        thumbnail: 'Niksi/Thumb.jpg',
+        thumbnailQ: 'Niksi/Thumb.jpg',
+        thumbnailLowQ: 'Niksi/Thumb.jpg',
         text: 'Pic Title',
         id: 'Niksi',
       },
       {
         slike: [{
-            name: 'Places/01.jpg',
+            picQuality: 'Places/01.jpg',
+            picLowQuality: 'Places/01.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/02.jpg',
+            picQuality: 'Places/02.jpg',
+            picLowQuality: 'Places/02.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/03.jpg',
+            picQuality: 'Places/03.jpg',
+            picLowQuality: 'Places/03.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/04.jpg',
+            picQuality: 'Places/04.jpg',
+            picLowQuality: 'Places/04.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/05.jpg',
+            picQuality: 'Places/05.jpg',
+            picLowQuality: 'Places/05.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/06.jpg',
+            picQuality: 'Places/06.jpg',
+            picLowQuality: 'Places/06.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/07.jpg',
+            picQuality: 'Places/07.jpg',
+            picLowQuality: 'Places/07.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/08.jpg',
+            picQuality: 'Places/08.jpg',
+            picLowQuality: 'Places/08.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/09.jpg',
+            picQuality: 'Places/09.jpg',
+            picLowQuality: 'Places/09.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/10.jpg',
+            picQuality: 'Places/10.jpg',
+            picLowQuality: 'Places/10.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/11.jpg',
+            picQuality: 'Places/11.jpg',
+            picLowQuality: 'Places/11.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Places/12.jpg',
+            picQuality: 'Places/12.jpg',
+            picLowQuality: 'Places/12.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/13.jpg',
+            picQuality: 'Places/13.jpg',
+            picLowQuality: 'Places/13.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/14.jpg',
+            picQuality: 'Places/14.jpg',
+            picLowQuality: 'Places/14.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/15.jpg',
+            picQuality: 'Places/15.jpg',
+            picLowQuality: 'Places/15.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/16.jpg',
+            picQuality: 'Places/16.jpg',
+            picLowQuality: 'Places/16.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Places/17.jpg',
+            picQuality: 'Places/17.jpg',
+            picLowQuality: 'Places/17.webp',
             vert: false,
             size: 'lg12'
           }
         ],
-        thumbnail: 'Places/Thumb.jpg',
+        thumbnailQ: 'Places/Thumb.jpg',
+        thumbnailLowQ: 'Places/Thumb.webp',
         text: 'Pic Title',
         id: 'Places',
       }, {
         slike: [{
-            name: 'Us/01.jpg',
+            picQuality: 'Us/01.jpg',
+            picLowQuality: 'Us/01.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/02.jpg',
+            picQuality: 'Us/02.jpg',
+            picLowQuality: 'Us/02.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/03.jpg',
+            picQuality: 'Us/03.jpg',
+            picLowQuality: 'Us/03.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/04.jpg',
+            picQuality: 'Us/04.jpg',
+            picLowQuality: 'Us/04.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/05.jpg',
+            picQuality: 'Us/05.jpg',
+            picLowQuality: 'Us/05.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/06.jpg',
+            picQuality: 'Us/06.jpg',
+            picLowQuality: 'Us/06.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/07.jpg',
+            picQuality: 'Us/07.jpg',
+            picLowQuality: 'Us/07.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/08.jpg',
+            picQuality: 'Us/08.jpg',
+            picLowQuality: 'Us/08.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/09.jpg',
+            picQuality: 'Us/09.jpg',
+            picLowQuality: 'Us/09.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/10.jpg',
+            picQuality: 'Us/10.jpg',
+            picLowQuality: 'Us/10.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/11.jpg',
+            picQuality: 'Us/11.jpg',
+            picLowQuality: 'Us/11.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/12.jpg',
+            picQuality: 'Us/12.jpg',
+            picLowQuality: 'Us/12.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/13.jpg',
+            picQuality: 'Us/13.jpg',
+            picLowQuality: 'Us/13.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/14.jpg',
+            picQuality: 'Us/14.jpg',
+            picLowQuality: 'Us/14.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/15.jpg',
+            picQuality: 'Us/15.jpg',
+            picLowQuality: 'Us/15.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/16.jpg',
+            picQuality: 'Us/16.jpg',
+            picLowQuality: 'Us/16.webp',
             vert: false
           },
           {
-            name: 'Us/17.jpg',
+            picQuality: 'Us/17.jpg',
+            picLowQuality: 'Us/17.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/18.jpg',
+            picQuality: 'Us/18.jpg',
+            picLowQuality: 'Us/18.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/19.jpg',
+            picQuality: 'Us/19.jpg',
+            picLowQuality: 'Us/19.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/20.jpg',
+            picQuality: 'Us/20.jpg',
+            picLowQuality: 'Us/20.webp',
             vert: true,
             size: 'lg6'
           },
           {
-            name: 'Us/21.jpg',
+            picQuality: 'Us/21.jpg',
+            picLowQuality: 'Us/21.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/22.jpg',
+            picQuality: 'Us/22.jpg',
+            picLowQuality: 'Us/22.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/23.jpg',
+            picQuality: 'Us/23.jpg',
+            picLowQuality: 'Us/23.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/24.jpg',
+            picQuality: 'Us/24.jpg',
+            picLowQuality: 'Us/24.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/25.jpg',
+            picQuality: 'Us/25.jpg',
+            picLowQuality: 'Us/25.webp',
             vert: false,
             size: 'lg12'
           },
           {
-            name: 'Us/26.jpg',
+            picQuality: 'Us/26.jpg',
+            picLowQuality: 'Us/26.webp',
             vert: false,
             size: 'lg12'
           }
         ],
-        thumbnail: 'Us/Thumb.jpg',
+        thumbnailQ: 'Us/Thumb.jpg',
+        thumbnailLowQ: 'Us/Thumb.jpg',
         text: 'Pic Title',
         id: 'Us',
       }

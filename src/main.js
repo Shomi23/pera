@@ -1,16 +1,31 @@
 import Vue from 'vue'
-import App from './App'
-import router from './router'
+import App from './App.vue'
 import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+import 'vuetify/dist/vuetify.css'
+import VueRouter from 'vue-router'
+import Routes from './router/index'
+import {store} from './store'
+
+
 
 Vue.use(Vuetify)
+Vue.use(VueRouter)
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
-new Vue({
+
+const router = new VueRouter({
+  routes: Routes,
+  mode:'history'
+})
+
+
+
+
+
+const app = new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 })

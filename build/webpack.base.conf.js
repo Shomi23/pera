@@ -53,9 +53,9 @@ module.exports = {
 
       {
         test: /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/,
-        use: ['file-loader',
+        use: [
           {
-            loader: 'webp-loader',
+            loader: 'file-loader',
             options: {
               limit: 10000,
               name: utils.assetsPath('./img/[name].[hash:3].[ext]'),

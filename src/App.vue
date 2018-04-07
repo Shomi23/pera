@@ -2,9 +2,9 @@
 <v-app id="app" v-cloak>
   <navComponent></navComponent>
   <div>
-
+    <transition name="fade" mode="in-out">
       <router-view/>
-
+    </transition>
   </div>
   <homeComponent></homeComponent>
   <foot></foot>
@@ -60,15 +60,16 @@ img {
 }
 
 .fade-enter-active {
-  transition: .6s ease-in-out;
-  opacity: 1
+  transition: .5s ease-in-out;
+
 }
 
 .fade-leave-active,
 .fade-enter {
   transform: translate(4%);
   filter:blur(20px);
-  opacity: 0;
+  transition: .5s ease-in-out;
+
 }
 [v-cloak] {
   display: none

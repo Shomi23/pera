@@ -1,13 +1,10 @@
 <template>
 <v-app id="app" v-cloak>
   <navComponent></navComponent>
-  <div>
     <transition name="fade" mode="in-out">
-        <router-view/>
+      <router-view/>
     </transition>
-  </div>
   <homeComponent></homeComponent>
-  <foot></foot>
 </v-app>
 </template>
 <script>
@@ -49,12 +46,6 @@ img {
 .container {
   padding: 0 !important;
 }
-
-.mainContainer {
-  max-width: 1000px !important;
-  padding: 0 !important;
-}
-
 .margtop {
   margin-top: 100px !important;
 }

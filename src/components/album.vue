@@ -45,6 +45,10 @@ export default {
 </script>
 
 <style scoped lang="css">
+.mainContainer {
+  max-width: 1000px !important;
+  padding: 0 !important;
+}
 @keyframes loadIn {
   0% {
     opacity: 0;

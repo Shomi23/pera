@@ -9,7 +9,7 @@
             :blur="30"
             >
           </progressive-img>
-          <h4>{{status}}</h4>
+          <h4>{{title}}</h4>
         </v-flex>
       </v-layout>
 
@@ -23,7 +23,6 @@ export default {
   data() {
     return {
       title: 'Picture Title',
-      status: ''
     }
   },
   created() {
@@ -41,17 +40,6 @@ export default {
   methods: {
     getPic(pic) {
       return require(`@/assets/img/${pic}`)
-    },
-    loadQuote() {
-      this.status = 'loading...'
-      var self = this
-      this.axios.get('gs://milan-petrovic.appspot.com/')
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function(error){
-        this.status = 'error'
-      })
     }
   }
 }

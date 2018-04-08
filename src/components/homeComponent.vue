@@ -11,11 +11,19 @@
               :blur="30"
               >
             </progressive-img>
-            <h4>{{title}}</h4>
+            <h4>{{pic.id}}</h4>
           </div>
         </router-link>
       </v-flex>
     </v-layout>
+    <v-flex class="text-xs-center">
+      <v-btn fab  large >
+       <img class="socialMedia" src="@/assets/img/ins.svg" alt="">
+     </v-btn>
+      <v-btn fab  large>
+      <img class="socialMedia" src="@/assets/img/you.svg" alt="">
+      </v-btn>
+    </v-flex>
   </v-container>
 </v-app>
 </template>
@@ -49,5 +57,9 @@ export default {
 a{
   text-decoration: none;
   color:black;
+}
+.socialMedia {
+  height: 40px;
+  width: 40px;
 }
 </style>

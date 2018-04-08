@@ -12,7 +12,6 @@
           <h4>{{title}}</h4>
         </v-flex>
       </v-layout>
-
     </v-container>
   </v-app>
 </template>

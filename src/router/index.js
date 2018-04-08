@@ -1,8 +1,4 @@
-export default [{
-    path: '/',
-    name: 'Home',
-    component: Home => import('../components/home.vue')
-  },
+export default [
   {
     path: '/album/:id',
     name: 'album',

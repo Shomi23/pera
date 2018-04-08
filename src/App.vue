@@ -14,9 +14,8 @@
 export default {
   name: 'app',
   components: {
-    homeComponent: homeComponent => import('./components/partials/homeComponent.vue'),
-    foot: foot => import('./components/partials/footer.vue'),
-    navComponent: navComponent => import('./components/partials/navComponent.vue')
+    homeComponent: homeComponent => import('./components/homeComponent.vue'),
+    navComponent: navComponent => import('./components/navComponent.vue')
   }
 }
 </script>

@@ -380,7 +380,9 @@ export const store = new Vuex.Store({
     ]
   },
   mutations: {},
-  actions: {},
+  actions: {
+  
+  },
   getters: {
     LoadedAlbum(state) {
       return (albumID) => {

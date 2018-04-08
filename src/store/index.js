@@ -32,7 +32,7 @@ export const store = new Vuex.Store({
           }
         ],
         thumbnailQ: 'Nights/Thumb.jpg',
-        thumbnailLowQ: 'Nights/Thumb.webp',
+        thumbnailLowQ: 'Nights/thumb.webp',
         text: 'Pic Title',
         id: 'Nights',
       },
@@ -212,7 +212,7 @@ export const store = new Vuex.Store({
           }
         ],
         thumbnailQ: 'Places/Thumb.jpg',
-        thumbnailLowQ: 'Places/Thumb.webp',
+        thumbnailLowQ: 'Places/thumb.webp',
         text: 'Pic Title',
         id: 'Places',
       }, {

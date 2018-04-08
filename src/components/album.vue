@@ -7,7 +7,6 @@
             :src="getPic(pic.picQuality)"
             :placeholder="getPic(pic.picLowQuality)"
             :blur="30"
-            :class="progImg"
             >
           </progressive-img>
           <h4>{{title}}</h4>
@@ -43,24 +42,19 @@ export default {
 </script>
 
 <style scoped lang="css">
-
-.lg6 img{
-
-
-}
 @keyframes loadIn {
   0% {
     opacity: 0;
     filter: blur(20px);
-    transform: scale(0.9);
+
   }
   60% {
     opacity: 0;
-    transform: scale(0.9);
+
   }
   100% {
     opacity: 1;
-    transform: scale(1);
+
   }
 }
 

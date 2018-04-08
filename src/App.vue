@@ -3,7 +3,7 @@
   <navComponent></navComponent>
   <div>
     <transition name="fade" mode="in-out">
-      <router-view/>
+        <router-view/>
     </transition>
   </div>
   <homeComponent></homeComponent>
@@ -55,20 +55,20 @@ img {
   max-width: 1000px !important;
   padding: 0 !important;
 }
+
 .margtop {
   margin-top: 100px !important;
 }
 
 .fade-enter-active {
-  transition: .5s ease-in-out;
-
+  transition: .3s ease-in-out;
 }
 
 .fade-leave-active,
 .fade-enter {
   transform: translate(4%);
   filter:blur(20px);
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
 
 }
 [v-cloak] {

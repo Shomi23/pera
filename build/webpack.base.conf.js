@@ -53,12 +53,11 @@ module.exports = {
 
       {
         test: /\.(png|jpe?g|gif|svg|webp)(\?.*)?$/,
-        use: [ 'file-loader',
+        use: [ `file-loader?name=${utils.assetsPath("img/[name].[hash:7].[ext]")}`,
           {
             loader:  'image-webpack-loader',
             options: {
               limit: 10000,
-              name: utils.assetsPath('img/[name].[hash:3].[ext]'),
               bypassOnDebug: true
             }
           }

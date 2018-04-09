@@ -2,7 +2,7 @@
 <v-app appear>
   <v-container class="homeContainer margtop" grid-list-xl>
     <v-layout row wrap class="text-xs-center">
-      <v-flex xs12 md6 v-for="pic in pics" :key="pic.id" @click="moveTop">
+      <v-flex class="box" xs12 md6 v-for="pic in pics" :key="pic.id" @click="moveTop">
         <router-link :to="'/album/'+ pic.id">
           <div>
             <progressive-img :src="getPic(pic.thumbnailQ)" :placeholder="getPic(pic.thumbnailLowQ)" :blur="30">
@@ -50,7 +50,9 @@ export default {
   max-width: 1000px !important;
   padding: 0;
 }
-
+.box{
+  padding: 7px 12px!important;
+}
 a {
   text-decoration: none;
   color: black;
@@ -60,4 +62,5 @@ a {
   height: 40px;
   width: 40px;
 }
+
 </style>

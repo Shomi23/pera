@@ -4,7 +4,9 @@
     <transition name="fade" mode="in-out">
       <router-view/>
     </transition>
-  <homeComponent></homeComponent>
+    <transition name="fade" mode="in-out">
+      <homeComponent></homeComponent>
+    </transition>
 </v-app>
 </template>
 <script>
@@ -19,7 +21,7 @@ export default {
 
 <style media="screen" >
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css');
 @font-face {
   font-family: 'Roboto Mono', monospace;
   src: url('./assets/fonts/RobotoMono-Regular.ttf') format('ttf');
@@ -51,7 +53,7 @@ img {
 }
 
 .fade-enter-active {
-  transition: .3s ease-in-out;
+  transition: .7s ease-in-out;
 }
 
 .fade-leave-active,
@@ -64,4 +66,6 @@ img {
 [v-cloak] {
   display: none
 }
+
+
 </style>

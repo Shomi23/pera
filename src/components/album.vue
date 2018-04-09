@@ -24,9 +24,6 @@ export default {
       title: 'Picture Title',
     }
   },
-  created() {
-    this.loadQuote()
-  },
   computed: {
     album() {
       return this.$store.getters.LoadedAlbum(this.id)
@@ -34,7 +31,6 @@ export default {
     pics() {
       return this.album.slike
     }
-
   },
   methods: {
     getPic(pic) {
@@ -48,21 +44,8 @@ export default {
 .mainContainer {
   max-width: 1000px !important;
   padding: 0 !important;
+
 }
-@keyframes loadIn {
-  0% {
-    opacity: 0;
-    filter: blur(20px);
 
-  }
-  60% {
-    opacity: 0;
-
-  }
-  100% {
-    opacity: 1;
-
-  }
-}
 
 </style>

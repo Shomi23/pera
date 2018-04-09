@@ -4,7 +4,7 @@
       <v-layout class="rowz text-xs-center">
         <v-flex xs12>
           <div class="titl">
-            <router-link class="titleMain" to="/">
+            <router-link class="titleMain" to="/" >
               <h1 class="titleMain">Milan Petrovic</h1>
             </router-link>
           </div>
@@ -20,6 +20,7 @@ export default {
 </script>
 
 <style scoped lang="css">
+
 h1{
   font-size: 30px;
 }

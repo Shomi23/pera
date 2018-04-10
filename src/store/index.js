@@ -376,12 +376,79 @@ export const store = new Vuex.Store({
         thumbnailLowQ: 'Us/Thumb.jpg',
         text: 'Pic Title',
         id: 'Us',
+      },
+      {
+        slike: [{
+            picQuality: 'Trokanac/01.jpg',
+            picLowQuality: 'Trokanac/1.webp',
+          },
+          {
+            picQuality: 'Trokanac/02.jpg',
+            picLowQuality: 'Trokanac/02.webp',
+          },
+          {
+            picQuality: 'Trokanac/03.jpg',
+            picLowQuality: 'Trokanac/03.webp',
+          },
+          {
+            picQuality: 'Trokanac/04.jpg',
+            picLowQuality: 'Trokanac/04.webp',
+          },
+          {
+            picQuality: 'Trokanac/05.jpg',
+            picLowQuality: 'Trokanac/05.webp',
+          },
+          {
+            picQuality: 'Trokanac/06.jpg',
+            picLowQuality: 'Trokanac/06.webp',
+          },
+          {
+            picQuality: 'Trokanac/07.jpg',
+            picLowQuality: 'Trokanac/07.webp',
+          },
+          {
+            picQuality: 'Trokanac/08.jpg',
+            picLowQuality: 'Trokanac/08.webp',
+          },
+          {
+            picQuality: 'Trokanac/09.jpg',
+            picLowQuality: 'Trokanac/09.webp',
+          },
+          {
+            picQuality: 'Trokanac/10.jpg',
+            picLowQuality: 'Trokanac/10.webp',
+          },
+          {
+            picQuality: 'Trokanac/11.jpg',
+            picLowQuality: 'Trokanac/11.webp',
+          },
+          {
+            picQuality: 'Trokanac/12.jpg',
+            picLowQuality: 'Trokanac/12.webp',
+          },
+          {
+            picQuality: 'Trokanac/13.jpg',
+            picLowQuality: 'Trokanac/13.webp',
+          },
+          {
+            picQuality: 'Trokanac/14.jpg',
+            picLowQuality: 'Trokanac/14.webp',
+          },
+          {
+            picQuality: 'Trokanac/15.jpg',
+            picLowQuality: 'Trokanac/15.webp',
+          }
+        ],
+        thumbnailQ: 'Trokanac/Thumb.jpg',
+        thumbnailLowQ: 'Trokanac/Thumb.jpg',
+        text: 'Pic Title',
+        id: 'Trokanac',
       }
     ]
   },
   mutations: {},
   actions: {
-  
+
   },
   getters: {
     LoadedAlbum(state) {

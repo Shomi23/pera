@@ -1,20 +1,18 @@
 <template>
 <v-app id="app" v-cloak>
   <navComponent></navComponent>
-    <transition name="fade" mode="in-out">
-      <router-view/>
-    </transition>
-    <transition name="fade" mode="in-out">
-      <homeComponent></homeComponent>
-    </transition>
+  <router-view/>
+  <homeComponent></homeComponent>
 </v-app>
 </template>
 <script>
 export default {
   name: 'app',
   components: {
-    homeComponent: homeComponent => import('./components/homeComponent.vue'),
-    navComponent: navComponent => import('./components/navComponent.vue')
+    homeComponent: homeComponent =>
+      import ('./components/homeComponent.vue'),
+    navComponent: navComponent =>
+      import ('./components/navComponent.vue')
   }
 }
 </script>
@@ -48,24 +46,13 @@ img {
 .container {
   padding: 0 !important;
 }
+
 .margtop {
   margin-top: 100px !important;
 }
 
-.fade-enter-active {
-  transition: .7s ease-in-out;
-}
 
-.fade-leave-active,
-.fade-enter {
-  transform: translate(4%);
-  filter:blur(20px);
-  transition: .3s ease-in-out;
-
-}
 [v-cloak] {
   display: none
 }
-
-
 </style>

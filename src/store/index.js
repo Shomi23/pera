@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
           {
             picQuality: 'Nights/04.jpg',
             picLowQuality: 'Nights/04.webp',
-            size: 'lg12'
+            size: 'vert'
           }
         ],
         thumbnailQ: 'Nights/Thumb.jpg',
@@ -323,7 +323,7 @@ export const store = new Vuex.Store({
           {
             picQuality: 'Us/26.jpg',
             picLowQuality: 'Us/26.webp',
-            size: 'lg12'
+            size: 'vert'
           }
         ],
         thumbnailQ: 'Us/Thumb.jpg',

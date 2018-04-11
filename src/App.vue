@@ -1,7 +1,7 @@
 <template>
 <v-app id="app" v-cloak>
   <navComponent></navComponent>
-  <router-view/>
+    <router-view/>
   <homeComponent></homeComponent>
 </v-app>
 </template>
